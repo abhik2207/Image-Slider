@@ -14,6 +14,11 @@ body {
     width: 100vw;
     background-color: #000;
     overflow: hidden;
+    cursor: grab;
+}
+
+#image-track:active {
+    cursor: grabbing;
 }
 
 #image-track .image {
